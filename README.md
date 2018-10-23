@@ -63,50 +63,6 @@ or manipulate Go programs.
 
 A trivial web server that demonstrates the use of the
 [`template` package](https://golang.org/pkg/text/template/)'s `block` feature.
-去示例项目
-此存储库包含一组Go程序和库，用于演示语言，标准库和工具。
 
-例子
-你好（godoc）和stringutil（godoc）
-go get github.com/golang/example/hello
-一个简单的“Hello，world”程序，它使用了一个stringutil包。
-
-命令问候：
-
-可执行命令的基本形式
-导入包（从标准库和本地存储库）
-打印字符串（fmt）
-库stringutil涵盖：
-
-图书馆的基本形式
-字符串和[]符文之间的转换
-表驱动单元测试（测试）
-outyet（godoc）
-go get github.com/golang/example/outyet
-一个回答问题的网络服务器：“Go 1.x out了吗？”
-
-涵盖的主题：
-
-命令行标志（标志）
-Web服务器（net / http）
-HTML模板（html /模板）
-记录（日志）
-长时间运行的后台进程
-同步goroutines之间的数据访问（同步）
-导出服务器状态以进行监视（expvar）
-单元和集成测试（测试）
-依赖注入
-时间（时间）
-appengine-hello（godoc）
-goapp get github.com/golang/example/appengine-hello
-一个简单的“Hello，world”App Engine应用程序，旨在用作您自己代码的起点。
-
-注意：该goapp工具是Google App Engine SDK for Go的一部分。
-
-gotypes（godoc）
-该go/types程序包是Go程序的类型检查程序。它是Go标准库中最复杂的软件包之一，因此我们提供了本教程来帮助您找到方向。它提供了几个示例程序，您可以go get在学习构建分析或操作Go程序的工具时使用和使用它们。
-
-模板（godoc）
-一个简单的Web服务器，演示了 template包的block功能的使用。
 
 ![Image text](http://s1.51cto.com/images/20181023/1540259246244208.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=)
